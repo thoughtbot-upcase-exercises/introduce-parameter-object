@@ -14,7 +14,8 @@ singular parameter object. The existing test suite will need to be modified to
 accept one parameter as well, however, no new tests should need to be added as this
 is the "refactoring" phase of [TDD](http://en.wikipedia.org/wiki/Test-driven_development).
 
-In the end your code should be able to be called as `calculate_cost(object)`.
+When you're finished, `ShippingCalculator#calculate_cost` should accept just one
+parameter.
 
 Make sure all tests are passing by running:
 
