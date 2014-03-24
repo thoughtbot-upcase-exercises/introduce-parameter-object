@@ -6,6 +6,8 @@ object. The method in question is `#calculate_cost` in `ShippingCalculator`
 which currently takes up to five parameters. This abstraction pattern leads to
 cleaner code and helps to naturally group parameters.
 
+You may want to read about a related smell: [data clumps](http://sourcemaking.com/refactoring/data-clumps).
+
 Exercise!
 ---------
 
